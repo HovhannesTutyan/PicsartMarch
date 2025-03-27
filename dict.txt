@@ -1,0 +1,26 @@
+D = {}                                                              Empty dictionary
+D = {'name': 'Bob', 'age': 40}                                      Two-item dictionary
+E = {'cto': {'name': 'Bob', 'age': 40}}                             Nesting
+D = dict(name='Bob', age=40)                                        Alternative construction techniques:
+D = dict([('name', 'Bob'), ('age', 40)])                            keywords, key/value pairs 
+D = dict(zip(keyslist, valueslist))                                 zipped key/value pairs, key lists
+D = dict.fromkeys(['name', 'age'])
+D['name']
+E['cto']['age']
+D.keys()
+D.values()
+D.items()
+D.copy()
+D.clear()
+D.update(D2)
+D.get(key, default?)
+D.pop(key, default?)
+D.setdefault(key, default?)
+D.popitem()
+D[key] = 42                                                         Adding/changing keys
+del D[key]                                                          Deleting entries by key
+list(D.keys())
+D1.keys() & D2.keys()
+Dictionary views (Python 3.X)
+D.viewkeys(), D.viewvalues()                                        Dictionary views (Python 2.7)
+D = {x: x*2 for x in range(10)}                                     Dictionary comprehensions (Python 3.X, 2.7)

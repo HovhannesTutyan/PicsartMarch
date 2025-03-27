@@ -1,0 +1,20 @@
+https://lh3.googleusercontent.com/xIQ43-xhiszRCb4VAbh1BHDAQ4q_qbeycOYWQyHs4F2CgZzH_cUQZZVZRQ8x1-dYSyjnlFeMBihk-pZQE4kI3mNzDl244Ct4dAAg9MNgfPN1kfhOx-dCwjJDySHiBuavS4dh9xiH5Q4=w562
+37 37 True
+37 1720 True
+1720 37 18
+1720 1720 True
+unsupported operand type(s) for +: 'str' and 'str'
+unsupported operand type(s) for +: 'str' and 'bool'
+unsupported operand type(s) for +: 'int' and 'bool'
+https://lh3.googleusercontent.com/5x_0pbIHX-dEoxKZneX7rfDXo3HA68TZHYQWppq78V003OEPsWpxDoglY2v8cj6HRsfk3rlrtBBBKi2hhcqWBth2Z2hVyAceUUFhIQjCbNzod1Gde13VDcW3Ju8rV3lDnGLfYsKtC8k=w398
+[1, 2, 3] [5, 2, 3]
+[1, 2, 3] [1, 2, 3]
+[5, 2, 3] [5, 2, 3]
+'list' object does not support item assignment.
+https://lh3.googleusercontent.com/TA_2JKr6BNgp4rPdMzRUuV5jpgeHuuR43G-XUIThWFjPOe-JqgL3LhSgYJo6xyDOvK6SAWZ8VQNX6BNVa6yqlsX7VChyy7NslETP3ADcW3nz4TwhHJgKYVRvQnIPYyydSmfsvegKnmU=w497
+
+https://lh5.googleusercontent.com/_uMNuiU04EWGeeahhmLfhXobJ_C9aWFCO4OFOsE01roDj6FyuiHdtyw4d4JSJYu4DylSqCTG6G2g_JGWoqoCDSVs10quaHwBXNp3kNirjsaQnWlgDTXYdxq4NrK0CDw18zfdQundQn8=w444
+
+https://lh3.googleusercontent.com/IOGDNHAxADTl6qJZE5wbTpdYalyOWQ8_TevG9E77gGekZP9ZfyjiquANKi6BGzQJIXApEHYc3IAM-tqPrxN_xtcCXP6Gji73d8ds25affte9UQ9vc5HXD_Ks8a2s3FHTGoiJKwn7qKs=w484
+
+https://lh6.googleusercontent.com/VvraMbzralmhEUeBWvL5PVgLb2yFUSbkkzZK53Srw2iLQY_ceZi4h8YwimCUWae9ZZC3LJHgRsjpId1s9Dkdc61B5DP9mrF9SgAALhtYrY-lzrTpXc__BPImX2C2LWvoEDjPR7hpojg=w416
