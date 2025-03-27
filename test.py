@@ -118,3 +118,5 @@ def intersect(*args):
     return res
 
 print(intersect([65,41,27], [65,34,45, 34, 27]))
+
+
