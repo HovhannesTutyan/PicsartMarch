@@ -55,23 +55,19 @@ print(custom_zip(list1, list2))
 
 from functools import reduce
 
-# def add(*args):
-#     return sum(args)
-
-# def custom_reduce(func, iterable): this will not work for add1 
-#     if len(iterable) < 1:
-#         return  iterable
-#     return func(*iterable)
-
 def add1(x, y):
     return x + y
 numbers1 = [1,2,3,4,5,6,7]
-def custom_reduce1(func, iterable):
-    accum = iterable[0]
-    for i in range(1, len(iterable)):
-        accum = (func(accum, iterable[i]))
-    return accum
 
+def custom_reduce1(func, iterable, init=None):
+    it = iter(iterable)
+    if init is None:
+        value = next(it)
+    else:
+        value = init
+    for element in it:
+        value = func(value, element)
+    return value
 print(custom_reduce1(add1, numbers1))
 
 # 5. Implementing enumerate
