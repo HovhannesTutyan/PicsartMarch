@@ -59,16 +59,25 @@ def add1(x, y):
     return x + y
 numbers1 = [1,2,3,4,5,6,7]
 
-def custom_reduce1(func, iterable, init=None):
-    it = iter(iterable)
-    if init is None:
-        value = next(it)
-    else:
-        value = init
-    for element in it:
-        value = func(value, element)
-    return value
-print(custom_reduce1(add1, numbers1))
+import typing
+def custom_reduce(func, iter, init=None):
+    if not isinstance(iter, typing.Iterable):
+        raise TypeError("Give me an iterable")
+    if not callable(func):
+        raise TypeError("Give me callable")
+    if init == None:
+        raise TypeError("Give me initilazer")
+    if init != None:
+        res1 = init
+        start = 0
+    else: 
+        res1 = iter[0]
+    for i in range(start, len(iter)):
+        res1 = func(res1, iter[i])
+    return res1 
+
+ls = [1,2,3,4,5]
+print(custom_reduce(lambda x,y:x+y,ls, init=0))
 
 # 5. Implementing enumerate
 
